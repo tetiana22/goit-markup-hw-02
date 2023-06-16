@@ -1,0 +1,45 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+  }
+.page-nav .link {
+    color: #000000;
+}
+.page-nav .link:active {
+    color: #4d5ae5;
+} 
+.text-contacts .link {
+     color: #000000;
+}
+.text-contacts .link:hover,
+.text-contacts .link:focus {
+    color: #4d5ae5;
+}
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --primary-links-color: #4d5ae5;
+    --primary-text-color: #434455;
+    --primary-white-background-color: #FFFFFF;
+    --second-links-color: color: #000000;
+    --primary-text-contacts-color: color: #000000;
+    --second-text-contacts-color: #4d5ae5;
+    --accent-color: #E7E9FC;
+    --primary-background-color: #ffffff; 
+    --primary-button-color: #000000;
+    --second-button-color: #4d5ae5;
+}
+.button .link {
+    color: #4d5ae5;
+   background-color: #E7E9FC;
+}
+.button .link:active {
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color:#4d5ae5;
+    
+
+} 
