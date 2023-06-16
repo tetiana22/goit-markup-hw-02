@@ -5,18 +5,22 @@ body {
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
+    background-color: #ffffff;
   }
 .page-nav .link {
     color: #000000;
+    
+
 }
 .page-nav .link:active {
     color: #4d5ae5;
 } 
-.text-contacts .link {
+.list .link {
      color: #000000;
+     font-style: normal;
 }
-.text-contacts .link:hover,
-.text-contacts .link:focus {
+.list .link:hover,
+.list .link:focus {
     color: #4d5ae5;
 }
 :root {
