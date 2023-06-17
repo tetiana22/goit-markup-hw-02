@@ -7,35 +7,7 @@ body {
     color: #434455;
     background-color: #ffffff;
   }
-.page-nav .link {
-    color: #000000;
-    
 
-}
-.page-nav .link:active {
-    color: #4d5ae5;
-} 
-.list .link {
-     color: #000000;
-     font-style: normal;
-}
-.list .link:hover,
-.list .link:focus {
-    color: #4d5ae5;
-}
-:root {
-    --primary-font: "Roboto", sans-serif;
-    --primary-links-color: #4d5ae5;
-    --primary-text-color: #434455;
-    --primary-white-background-color: #FFFFFF;
-    --second-links-color: color: #000000;
-    --primary-text-contacts-color: color: #000000;
-    --second-text-contacts-color: #4d5ae5;
-    --accent-color: #E7E9FC;
-    --primary-background-color: #ffffff; 
-    --primary-button-color: #000000;
-    --second-button-color: #4d5ae5;
-}
 .button .link {
     color: #4d5ae5;
    background-color: #E7E9FC;
@@ -47,3 +19,176 @@ body {
     
 
 } 
+.contacts {
+    list-style: none;
+}
+.contacts .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.contacts .logo .link {
+    color: #2e2f42;
+}
+.contacts .list {
+    list-style: none;
+}
+.contacts .list .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.contacts .list .link:hover,
+.contacts .list .link:focus  {
+    color: #404bbf
+}
+
+.address {
+    font-style: normal;
+}
+.address .list .link {
+    color: #434455;
+    list-style: none;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+    
+}
+.address .list .link:hover,
+.address .list .link:focus {
+    text-color: #404bbf;
+}
+.main {
+    background-color: #2e2f42;
+}
+.main .link {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.main .button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.main .button:hover,
+.main .button:focus {
+    background-color: #404BBF;
+}
+.list .name_1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.list .text_1 {
+    letter-spacing: 0.02em;
+}
+.photo1 .list {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42; 
+}
+.group {
+    background-color: #F4F4FD;
+
+}
+.group .team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    COLOR: #2e2f42;
+
+}
+.group .team .list {
+    background-color: #FFFFFF;
+}
+.group .team .list .name_1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.group .team .list .name_1 .text_1 {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+.foot {
+    background-color: #2e2f42;
+}
+.foot .link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+
+}
+.foot .link .logo {
+    color: #f4f4fd;
+}
+.foot .text_1 {
+    color: #F4F4FD; 
+    letter-spacing: 0.02em;
+}
+.list .link {
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.list .link:hover,
+.list .link:focus {
+   color: #FFFFFF;
+   background-color: #404BBF;
+}
+.list {
+    list-style: none;
+}
+.list .link {
+    text-decoration: none;
+}
+.list .subscribe {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.list .subscribe .product {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
