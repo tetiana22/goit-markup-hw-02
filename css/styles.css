@@ -7,6 +7,20 @@ body {
     color: #434455;
     background-color: #ffffff;
   }
+  :root {
+    --logo-color: #4d5ae5;
+    --logo-span-color: #2e2f42;
+    --list-color: #2e2f42;
+    --link-color:  #434455;
+    --section-color: #2e2f42;
+    --name-color: #2e2f42;
+    --text-color:  #434455;
+    --background-color:  #2e2f42;
+    --batton-background-color:  #F4F4FD;
+    
+
+
+  }
 
 .button .link {
     color: #4d5ae5;
@@ -19,56 +33,54 @@ body {
     
 
 } 
-.contacts {
-    list-style: none;
-}
-.contacts .logo {
+
+.contacts .link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--logo-color);
     text-decoration: none;
 }
-.contacts .logo .link {
-    color: #2e2f42;
+.contacts .link .std_ {
+    color: var(--logo-span-color);
 }
-.contacts .list {
+.contacts .listt {
     list-style: none;
 }
-.contacts .list .link {
+.contacts .listt .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--list-color);
     text-decoration: none;
 }
-.contacts .list .link:hover,
-.contacts .list .link:focus  {
-    color: #404bbf
+
+.contacts .listt .link:hover,
+.contacts .listt .link:focus {
+    color: #404bbf;
 }
 
 .address {
     font-style: normal;
 }
-.address .list .link {
-    color: #434455;
+.address .listt .link {
     list-style: none;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #FFFFFF;
-    
+    color: var(--link-color);
 }
-.address .list .link:hover,
-.address .list .link:focus {
-    text-color: #404bbf;
+
+.address .listt .link:hover,
+.address .listt .link:focus {
+    color: #404bbf;
 }
 .main {
-    background-color: #2e2f42;
+    background-color: var(--background-color);
 }
 .main .link {
     font-size: 56px;
@@ -90,23 +102,31 @@ body {
 .main .button:focus {
     background-color: #404BBF;
 }
-.list .name_1{
+.list {
+    list-style: none;
+}
+.list .name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--name-color);
 }
-.list .text_1 {
+.list .text {
     letter-spacing: 0.02em;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
-.photo1 .list {
+.photo {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42; 
+    color: var(--name-color); 
+}
+.photo .list {
+    list-style: none;
 }
 .group {
     background-color: #F4F4FD;
@@ -118,26 +138,31 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    COLOR: #2e2f42;
+    color: var(--name-color);
 
 }
 .group .team .list {
+    list-style: none;
+}
+.group .team .list .comand {
     background-color: #FFFFFF;
 }
-.group .team .list .name_1 {
+.group .team .list .comand .name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--name-color);
 
 }
-.group .team .list .name_1 .text_1 {
+.group .team .list .name .comand .text {
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+   color: var(--text-color);
 }
 .foot {
-    background-color: #2e2f42;
+    background-color: var(--background-color);
 }
 .foot .link {
     font-family: "Raleway", sans-serif;
@@ -146,15 +171,15 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--logo-color);
     text-decoration: none;
 
 }
-.foot .link .logo {
+.foot .link .std_ {
     color: #f4f4fd;
 }
-.foot .text_1 {
-    color: #F4F4FD; 
+.foot .text {
+    color: var(--text-color); 
     letter-spacing: 0.02em;
 }
 .list .link {
@@ -163,8 +188,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #F4F4FD;
+    color: var(--logo-color);
+    background-color: var(--batton-background-color);
     cursor: pointer;
 }
 .list .link:hover,
@@ -183,12 +208,12 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--name-color);
 }
 .list .subscribe .product {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 
 }
