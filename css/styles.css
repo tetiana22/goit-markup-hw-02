@@ -17,6 +17,7 @@ body {
     --text-color:  #434455;
     --background-color:  #2e2f42;
     --batton-background-color:  #F4F4FD;
+    --footer-text-color: #F4F4FD;
     
 
 
@@ -179,7 +180,7 @@ body {
     color: #f4f4fd;
 }
 .foot .text {
-    color: var(--text-color); 
+    color: var(--footer-text-color); 
     letter-spacing: 0.02em;
 }
 .list .link {
