@@ -23,17 +23,6 @@ body {
 
   }
 
-.button .link {
-    color: #4d5ae5;
-   background-color: #E7E9FC;
-}
-.button .link:active {
-    color: #FFFFFF;
-    cursor: pointer;
-    background-color:#4d5ae5;
-    
-
-} 
 
 .contacts .link {
     font-family: "Raleway", sans-serif;
@@ -48,10 +37,10 @@ body {
 .contacts .link .std_ {
     color: var(--logo-span-color);
 }
-.contacts .listt {
+.contacts .list {
     list-style: none;
 }
-.contacts .listt .link {
+.contacts .list .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -60,15 +49,15 @@ body {
     text-decoration: none;
 }
 
-.contacts .listt .link:hover,
-.contacts .listt .link:focus {
+.contacts .list .link:hover,
+.contacts .list .link:focus {
     color: #404bbf;
 }
 
 .address {
     font-style: normal;
 }
-.address .listt .link {
+.address .list .link {
     list-style: none;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -76,8 +65,8 @@ body {
     color: var(--link-color);
 }
 
-.address .listt .link:hover,
-.address .listt .link:focus {
+.address .list .link:hover,
+.address .list .link:focus {
     color: #404bbf;
 }
 .main {
@@ -98,6 +87,7 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 .main .button:hover,
 .main .button:focus {
@@ -183,7 +173,7 @@ body {
     color: var(--footer-text-color); 
     letter-spacing: 0.02em;
 }
-.list .link {
+.buttons.link {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
@@ -192,9 +182,10 @@ body {
     color: var(--logo-color);
     background-color: var(--batton-background-color);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
-.list .link:hover,
-.list .link:focus {
+.buttons .link:hover,
+.buttons .link:focus {
    color: #FFFFFF;
    background-color: #404BBF;
 }
