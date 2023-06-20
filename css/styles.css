@@ -134,8 +134,9 @@ body {
 }
 .group .team .list {
     list-style: none;
+    
 }
-.group .team .list .comand {
+.list .comand {
     background-color: #FFFFFF;
 }
 .group .team .list .comand .name {
@@ -151,6 +152,7 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.5;
    color: var(--text-color);
+   
 }
 .foot {
     background-color: var(--background-color);
@@ -173,7 +175,7 @@ body {
     color: var(--footer-text-color); 
     letter-spacing: 0.02em;
 }
-.buttons.link {
+.list .press {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
@@ -184,8 +186,8 @@ body {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
-.buttons .link:hover,
-.buttons .link:focus {
+.list .press:hover,
+.list .press:focus {
    color: #FFFFFF;
    background-color: #404BBF;
 }
