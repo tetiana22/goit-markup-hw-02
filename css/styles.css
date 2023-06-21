@@ -93,14 +93,14 @@ body {
 .list {
     list-style: none;
 }
-.list-name {
+.name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--name-color);
 }
-.list-text {
+.text {
     letter-spacing: 0.02em;
     color: var(--text-color);
     font-size: 16px;
@@ -136,21 +136,7 @@ body {
 .comand {
     background-color: #FFFFFF;
 }
-.group-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--name-color);
 
-}
-.group-text {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-   color: var(--text-color);
-   
-}
 .footer {
     background-color: var(--background-color);
 }
@@ -190,28 +176,4 @@ body {
 .press:focus {
    color: #FFFFFF;
    background-color: #404BBF;
-}
-.list {
-    list-style: none;
-}
-.list .link {
-    text-decoration: none;
-    text-transform: capitalize;
-}
-.card-name {
-    list-style: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--name-color);
-
-}
-.card-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    Line height: 24px;
-
 }
