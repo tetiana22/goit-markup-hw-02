@@ -1,9 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: regular;
     size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
     color: #434455;
     background-color: #ffffff;
   }
@@ -24,7 +21,7 @@ body {
   }
 
 
-.contacts .link {
+.link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -34,13 +31,13 @@ body {
     color: var(--logo-color);
     text-decoration: none;
 }
-.contacts .link .std_ {
+.std_ {
     color: var(--logo-span-color);
 }
-.contacts .list {
+.link-nav {
     list-style: none;
 }
-.contacts .list .link {
+.link-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -49,15 +46,15 @@ body {
     text-decoration: none;
 }
 
-.contacts .list .link:hover,
-.contacts .list .link:focus {
+.link-nav:hover,
+.link-nav:focus {
     color: #404bbf;
 }
 
 .address {
     font-style: normal;
 }
-.address .list .link {
+.link-address {
     list-style: none;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -65,21 +62,21 @@ body {
     color: var(--link-color);
 }
 
-.address .list .link:hover,
-.address .list .link:focus {
+.link-address:hover,
+.link-address:focus {
     color: #404bbf;
 }
 .main {
     background-color: var(--background-color);
 }
-.main .link {
+.main-name {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.main .button {
+.button {
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -89,21 +86,21 @@ body {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
-.main .button:hover,
-.main .button:focus {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
 }
 .list {
     list-style: none;
 }
-.list .name {
+.list-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--name-color);
 }
-.list .text {
+.list-text {
     letter-spacing: 0.02em;
     color: var(--text-color);
     font-size: 16px;
@@ -123,7 +120,7 @@ body {
     background-color: #F4F4FD;
 
 }
-.group .team {
+.team {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -132,14 +129,14 @@ body {
     color: var(--name-color);
 
 }
-.group .team .list {
+.list {
     list-style: none;
     
 }
-.list .comand {
+.comand {
     background-color: #FFFFFF;
 }
-.group .team .list .comand .name {
+.group-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -147,7 +144,7 @@ body {
     color: var(--name-color);
 
 }
-.group .team .list .name .comand .text {
+.group-text {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -157,7 +154,7 @@ body {
 .footer {
     background-color: var(--background-color);
 }
-.footer .link {
+.link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -168,14 +165,17 @@ body {
     text-decoration: none;
 
 }
-.footer .link .std_ {
+.std-footer {
     color: #f4f4fd;
 }
-.footer .text {
+.text-footer {
     color: var(--footer-text-color); 
     letter-spacing: 0.02em;
 }
-.list .press {
+.list {
+    list-style: none;
+}
+.press {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
@@ -186,8 +186,8 @@ body {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
-.list .press:hover,
-.list .press:focus {
+.press:hover,
+.press:focus {
    color: #FFFFFF;
    background-color: #404BBF;
 }
@@ -197,15 +197,14 @@ body {
 .list .link {
     text-decoration: none;
 }
-.list .subscribe {
+.card-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--name-color);
-    
 }
-.list .product {
+.card-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
